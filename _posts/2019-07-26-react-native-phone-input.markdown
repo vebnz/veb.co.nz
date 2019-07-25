@@ -13,7 +13,7 @@ I thought it might be a good idea to post it here in case anyone else would like
 ```js
 import React, { useState, useEffect } from 'react'
 import { formatNumber } from "libphonenumber-js";
-import { Image, View, TextInput } from 'React';
+import { Image, View, TextInput } from 'react-native';
 
 const App = ({ placeholder, onChange, confirm }) => {
   const [phoneNumber, setPhoneNumber] = useState('');
