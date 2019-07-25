@@ -11,7 +11,7 @@ Although I don't have the same features as the forementioned library, it works w
 I thought it might be a good idea to post it here in case anyone else would like to use it.
 
 ```js
-import React, { useState, useCallback, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { formatNumber } from "libphonenumber-js";
 import { Image, View, TextInput } from 'React';
 
@@ -25,10 +25,10 @@ const App = ({ placeholder, onChange, confirm }) => {
     onChange(removeSpaces)
   }, [phoneNumber, onChange])
 
-  const onBlur = useCallback(() => {
+  const onBlur = () => {
     const formattedNumber = formatNumber(`+64${phoneNumber.replace(/^\+64/, "")}`, "International")
     setPhoneNumber(formattedNumber);
-  });
+  };
 
   return (
     <View row>
