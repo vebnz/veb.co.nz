@@ -2,11 +2,11 @@
 layout: post
 title:  "Automatically take screenshots every few seconds from video"
 date:   2012-09-17 13:12:23 +1300
-categories: code social
+categories: social
 ---
 A simple trick I’ve used for Facebook and other bits of social media is to take a whole bunch of still images and upload them for people to admire. (it generally works really well)
 
-Make sure you’ve got [mplayer](https://web.archive.org/web/20150327082835/http://www.mplayerhq.hu/design7/news.html) installed and you’ll be on your way in no time.
+Make sure you’ve got [mplayer](http://www.mplayerhq.hu/design7/news.html) installed and you’ll be on your way in no time.
 
 ```
 mplayer -vo jpeg -sstep 5 some_file.avi
