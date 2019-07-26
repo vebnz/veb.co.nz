@@ -24,11 +24,12 @@ github_username:  veb
 
 # Build settings
 markdown: kramdown
-theme: minima
-#remote_theme: veb/reverie
+# theme: minima
+remote_theme: veb/reverie
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
