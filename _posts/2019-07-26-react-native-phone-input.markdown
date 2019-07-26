@@ -4,9 +4,9 @@ title:  "React Native Phone Input with formatting and Hooks!"
 date:   2019-07-26 09:12:23 +1300
 categories: code react
 ---
-The other week I decided to move away from `react-native-phone-input` ([Github link](https://github.com/thegamenicorus/react-native-phone-input)) because I just found it too annoying, and it seemed like such an easy thing to do. It was!  :sweat_smile:
+I recently  decided to move away from `react-native-phone-input` ([Github link](https://github.com/thegamenicorus/react-native-phone-input)) because I just found it too annoying and it seemed like such an easy thing to remake with some Hooks. It was!  :sweat_smile:
 
-Although I don't have the same features as the forementioned library, it works well enough for me, and over time I can improve on it according to my needs.
+Although I don't have the same features as the aforementioned library, it works well enough for me, and over time I can improve on it according to my needs.
 
 I thought it might be a good idea to post it here in case anyone else would like to use it.
 
@@ -53,9 +53,9 @@ export default App;
 ```
 
 
-This was written for my app, that will be New Zealand based (for now) that's why I added the NZ flag and hard coded the `+64` country code.
+This was written for my app, that will be New Zealand based (when it's launched) that's why I added the NZ flag and hard coded the `+64` country code.
 
-I am also using `formatNumber` from `libphonenumber-js` library ([Github link](https://github.com/catamphetamine/libphonenumber-js )) to format the number AFTER the user enters their phone number.[]()
+I am also using `formatNumber` from `libphonenumber-js` library ([Github link](https://github.com/catamphetamine/libphonenumber-js )) to format the number AFTER the user enters their phone number.
 
 Here's a small gif of it working:
 
