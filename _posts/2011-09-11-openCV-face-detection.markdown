@@ -2,7 +2,7 @@
 layout: post
 title:  "Face Detection in images using OpenCV and Python"
 date:   2011-09-11 09:12:23 +1300
-categories: code
+categories: code python
 ---
 I hacked together this basic script to detect faces in images using OpenCV, Python, Web.py and ImageMagick. It’s a fun wee learning experience.
 
