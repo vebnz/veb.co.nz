@@ -16,7 +16,7 @@
 title: vebsite
 email: mike@veb.co.nz
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my vebsite where anything I want will go on it :o
+  This website/vebsite is just my fun wee Jekyll playground. Have fun!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vebbed
@@ -32,6 +32,7 @@ plugins:
   - jekyll-remote-theme
   - jemoji
   - jekyll-gist
+  - jekyll-inline-svg
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
