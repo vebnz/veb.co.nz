@@ -17,6 +17,7 @@ gem "jekyll-remote-theme"
 gem 'jemoji' # for emojis
 gem 'jekyll-admin', group: :jekyll_plugins # for admin
 gem 'jekyll-gist' # to display gists
+gem "jekyll-inline-svg", "~>0.0.1" # to display the veb logo which is in SVG
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
