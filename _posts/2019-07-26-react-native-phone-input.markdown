@@ -61,9 +61,40 @@ Here's a small gif of it working:
 
 ![A gif of my code](https://i.imgur.com/zWXDjyu.gif)
 
-There are quite a few things that is missing from this code snippet, but the idea of me posting it was so you could have a "skeleton" so that you can then add your neccessary functionality to. An example here, would be to show a checkmark :white_check_mark: after entering the first one (if it's a correct number from `formatNumber`) and then if they enter the wrong number in the second input, you would show :x:.
+
+If you put the above in your *components* directory, you can include it:
+
+```react
+import PhoneInput from 'app/components/PhoneInput';
+```
+
+
+Then within the screen that you want to display your phone input:
+
+```react
+<PhoneInput
+  placeholder='Mobile Number'
+  onChange={this.onChangePhoneInput} />
+```
+
+
+My `onChangePgoneInput` is as simple as you thought:
+
+```react
+onChangePhoneInput = (value) => {
+  this.setState({
+    phoneInput: value,
+  })
+}
+```
+
+
+
+Of course, to do what I've done (for confirming your mobile number), you just add another `PhoneInput` component, but with a different `onChange`.
+
+There are quite a few things that is missing from this code, but the idea of me posting it was so you could have a "skeleton" so that you can then add your neccessary functionality to. An example here, would be to show a checkmark :white_check_mark: after entering the first one (if it's a correct number from `formatNumber`) and then if they enter the wrong number in the second input, you would show an 'x' :x:.
 
 I do find quite often it's far easier to make your own components rather than trying to hack existing ones to work how you want them to, and with [React Hooks](https://reactjs.org/docs/hooks-intro.html)… it's becoming far easier to take a bloated library from npm or GitHub and convert it into something tiny. 
 
-Have fun. :smiley:
+Have fun.
 
