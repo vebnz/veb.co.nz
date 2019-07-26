@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How I made money with TeeSpring"
+title:  "How I made money with Teespring"
 date:   2012-12-03 09:12:23 +1300
-categories: code teespring
+categories: marketing
 ---
 **Disclaimer**: I’m not paid by TeeSpring, I’m just a huge fan.
 
