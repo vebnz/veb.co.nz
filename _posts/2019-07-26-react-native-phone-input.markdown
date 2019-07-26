@@ -4,7 +4,7 @@ title:  "React Native Phone Input with formatting and Hooks!"
 date:   2019-07-26 09:12:23 +1300
 categories: code react
 ---
-The other week I decided to move away from `react-native-phone-input` ([Github link](https://github.com/thegamenicorus/react-native-phone-input)) because I just found it too annoying, and it seemed like such an easy thing to do. It was! 
+The other week I decided to move away from `react-native-phone-input` ([Github link](https://github.com/thegamenicorus/react-native-phone-input)) because I just found it too annoying, and it seemed like such an easy thing to do. It was!  :sweat_smile:
 
 Although I don't have the same features as the forementioned library, it works well enough for me, and over time I can improve on it according to my needs.
 
@@ -92,9 +92,9 @@ onChangePhoneInput = (value) => {
 
 Of course, to do what I've done (for confirming your mobile number), you just add another `PhoneInput` component, but with a different `onChange`.
 
-There are quite a few things that is missing from this code, but the idea of me posting it was so you could have a "skeleton" so that you can then add your neccessary functionality to. An example here, would be to show a checkmark :white_check_mark: after entering the first one (if it's a correct number from `formatNumber`) and then if they enter the wrong number in the second input, you would show an 'x' :x:.
+There are quite a few things that is missing from this code, but the idea of me posting it was so you could have a "skeleton" so that you can then add your neccessary functionality to. An example here, would be to show a checkmark :heavy_check_mark: after entering the first one (if it's a correct number from `formatNumber`) and then if they enter the wrong number in the second input, you would show an :x:.
 
 I do find quite often it's far easier to make your own components rather than trying to hack existing ones to work how you want them to, and with [React Hooks](https://reactjs.org/docs/hooks-intro.html)… it's becoming far easier to take a bloated library from npm or GitHub and convert it into something tiny. 
 
-Have fun.
+Have fun. :smile:
 
