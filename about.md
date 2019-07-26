@@ -1,10 +1,8 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: page
+permalink: "/about/"
 ---
-
-
 
 I'm Mike Mackenzie, a principal developer for Diastorm Technology working on a very top secret platform that's due for release very soon.
 
