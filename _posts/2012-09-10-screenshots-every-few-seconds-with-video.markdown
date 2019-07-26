@@ -28,4 +28,4 @@ Mess around, and play with mplayer as it’s not in abundance of fun tricks!
 
 You can see a demonstration on [Dirk Gently Facebook](https://web.archive.org/web/20150327082835/http://www.facebook.com/DirkGentlyBBC/photos_stream).
 
-f you want to try this trick with MKV files, I found that changing jpeg to png works!
+If you want to try this trick with MKV files, I found that changing jpeg to png works!
