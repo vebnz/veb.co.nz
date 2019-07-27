@@ -29,7 +29,7 @@
       </svg> <span class="username">{{ site.pinterest_username| escape }}</span></a></li>{%- endif -%}
   {%- if site.pixelfed_username -%}<li><a
       href="https://pixelfed.social/{{ site.pixelfed_username| cgi_escape | escape }}"><svg class="svg-icon">
-        <use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use>
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#pixelfed' | relative_url }}"></use>
       </svg> <span class="username">{{ site.pixelfed_username| escape }}</span></a></li>{%- endif -%}
   {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a
       href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}"><svg class="svg-icon">
