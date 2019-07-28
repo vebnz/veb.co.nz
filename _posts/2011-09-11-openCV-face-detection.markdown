@@ -5,7 +5,7 @@ date: '2011-09-11 09:12:23 +1300'
 categories: code python
 ---
 
-> **This is a very old article I wrote for my last blog** I hope to write another, more up-to-date one soon.
+> **This is a very old article I wrote for my last blog Spottedsun.com** I hope to write another, more up-to-date one soon.
 
 I hacked together this basic script to detect faces in images using OpenCV, Python, Web.py and ImageMagick. It’s a fun wee learning experience.
 
