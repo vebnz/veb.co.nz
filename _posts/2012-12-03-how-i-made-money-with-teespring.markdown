@@ -4,6 +4,9 @@ title:  "How I made money with Teespring"
 date:   2012-12-03 09:12:23 +1300
 categories: marketing
 ---
+
+> **This is a very old article I wrote for my last blog** from Spottedsun.com
+> 
 **Disclaimer**: I’m not paid by TeeSpring, I’m just a huge fan.
 
 Sometime earlier this year, I was sitting at my desk looking at my Facebook page "ModernSherlock" and I pondered the question, “How can I monetize this?”.
