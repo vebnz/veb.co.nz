@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "React Native iPhone X error"
+date:   2019-10-12 18:12:23 +1300
+categories: marketing
+---
+
 ## React Native iPhone X not found
 
 If you run into this error, simply remove your `node_modules` and install again. (I use `yarn`)
