@@ -1,0 +1,5 @@
+## React Native iPhone X not found
+
+If you run into this error, simply remove your `node_modules` and install again. (I use `yarn`)
+
+Make sure you actually have an iPhone X via XCode. It has a device manager. You can download all sorts of simulators.
