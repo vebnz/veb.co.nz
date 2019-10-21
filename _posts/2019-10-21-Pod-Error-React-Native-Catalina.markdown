@@ -40,7 +40,7 @@ They thoughtfully gave me this instead of updating Xcode for me:
 
 So then I angrily deleted Xcode and then went to try download it via appstore, and it just kept telling me to login.
 
-Fortunately, you can download it directly from Apple, https://developer.apple.com/download/more/
+Fortunately, you can download it directly from Apple, [Apple Download](https://developer.apple.com/download/more/)
 
 ![alt text](https://i.imgur.com/iN9Fka6.png "Downloading xcode from Apple")
 
