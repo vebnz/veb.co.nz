@@ -2,7 +2,7 @@
 layout: post
 title:  "Pod install not working on macOS Catalina?"
 date:   2019-10-20 19:17:23 +1300
-categories: iphone, error, react-native, ruby, lBase64, catalina, apple
+categories: iphone error react-native ruby Xcode catalina macOS
 ---
 
 ## Pod install not working on macOS Catalina?
