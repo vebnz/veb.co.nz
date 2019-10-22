@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Pod install not working on macOS Catalina?"
-date:   2019-10-20 07:59:34 +1300
+title:  "Can't insert emojis on macOS Catalina?"
+date:   2019-10-23 07:59:34 +1300
 categories: macOS catalina
 ---
 
