@@ -5,8 +5,6 @@ date: '2013-08-07 10:00:00 +1300'
 categories: hobbies electronics
 ---
 
-## Build a quadcopter (Part 1) - The parts
-
 It has been a while since my last post and I’m going to step away from Web development for this next series and teach you all how to build a quadcopter.
 
 ![The final product](https://i.imgur.com/rneCvnd.png)
@@ -40,8 +38,7 @@ I’m going to help you out here and give you a basic list of parts (as well as 
 
 This is a nice solid frame that is still reasonably light. You can also buy spare arms in case one snaps in a crash and you can also buy addons in order to attach a camera.
 
-**Motor/Props
-**
+**Motor/Props**
 
 - [D2830-11 1000kv Brushless Motor](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=12921) x4
 - [10×4.5 SF Props 2pc Standard Rotation/2 pc RH Rotation (Black)](http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=25824) x2
