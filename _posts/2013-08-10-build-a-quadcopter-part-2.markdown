@@ -107,6 +107,6 @@ Move your throttle to the bottom and then bottom/right to arm it. You’ll now s
 
 If you got this far and everything is working then congratulations, you’ve successfully built a quadcopter. Don’t get too excited though, if you took it outside now and tried to fly it you’re probably going to have a bad time.
 
-In the [part 3]() we’re going to look at setting up the KK2.0 controller board to work as a quadcopter, making sure the radio has all channels working in the right order, and finally tuning it so it flies well.
+In the [part 3](http://veb.co.nz/hobbies/electronics/2013/08/06/build-a-quadcopter-part-3.html) we’re going to look at setting up the KK2.0 controller board to work as a quadcopter, making sure the radio has all channels working in the right order, and finally tuning it so it flies well.
 
 Feel free to comment or you can hit me up on [twitter @JAGracie](https://twitter.com/JAGracie)
