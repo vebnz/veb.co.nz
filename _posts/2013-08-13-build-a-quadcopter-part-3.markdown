@@ -23,19 +23,22 @@ This is easy enough to do. Firstly Plug the battery harness into the battery and
 Just like that! You can then either go back (press button 1 over and over until you get back to the start) or press button 3 to scroll through each individual motor on the X layout. If you scroll through the motors you should take note that it shows you an arrow telling you which way the motor should spin (CW or CCW). This is important as this is what we’re going to cover next.
 
 <img src="https://i.imgur.com/Rvhok2q.png" alt="Preparing the quadcopter - Motor layout" style="zoom:50%;" />
-Preparing the quadcopter – Motor layout
 
 **Motor Rotation**
 
 Now basically unless your motors spin the correct way (in line with the motor layout from above) you’re going to have a hard time flying. By hard time I mean the quadcopter will most likely flip before it gets off the ground and cause a bit of damage to itself. In other words this is also quite an important step.
 
-If we follow what we saw in the previous step then motors 1&3 spin are going to spin CW and 2&4 will spin CCW. Check out the image below it you’re not sure:![Preparing the quadcopter - Motor rotation](https://i.imgur.com/qu1TtPi.png)
-Preparing the quadcopter – Motor rotation
+If we follow what we saw in the previous step then motors 1&3 spin are going to spin CW and 2&4 will spin CCW. Check out the image below it you’re not sure:
+
+![Preparing the quadcopter - Motor rotation](https://i.imgur.com/qu1TtPi.png)
+
 
 The only way to find out if your motors are spinning in the correct direction is to fire it up and apply a little bit of throttle. So go ahead and turn on your radio, plug the battery into the harness and check each motor in turn.
 
-By referencing the image above double check to make sure each motor is spinning in the right direction. If you find they aren’t, then all you need to do is switch 2 of the wires connecting from the motors to the ESCs (ie take the yellow and black and switch them). If you don’t know which wires I’m talking about, then these:![Preparing the quadcopter - Motor wiring](https://i.imgur.com/gqLDSw0.png)
-Preparing the quadcopter – Motor wiring
+By referencing the image above double check to make sure each motor is spinning in the right direction. If you find they aren’t, then all you need to do is switch 2 of the wires connecting from the motors to the ESCs (ie take the yellow and black and switch them). If you don’t know which wires I’m talking about, then these:
+
+![Preparing the quadcopter - Motor wiring](https://i.imgur.com/gqLDSw0.png)
+
 
 Again double check they’re spinning in the correct direction (rinse and repeat the above step for the other motors if needed) and then move onward!
 
@@ -46,10 +49,9 @@ There are two reasons we need to do this. One, we need to zero out these numbers
 Firstly, switch on your radio and plug the battery into the harness to power it all up. On the KK2.0 do the following:
 
 - Press the menu button (button 4)
-
 - Press down and enter into ‘Receiver Test’
-
-- You should come across the following:![Preparing the quadcopter - Receiver test](https://i.imgur.com/1g56fL3.png)Preparing the quadcopter – Receiver test
+- You should come across the following:
+- ![Preparing the quadcopter - Receiver test](https://i.imgur.com/1g56fL3.png)
 
 This shows all the different channels (throttle, aileron, elevator, rudder, and aux) of your receiver. If you go ahead and move the sticks on your radio you will see the numbers next to the channels increase and decrease as you do so (this is a good sign).
 
@@ -81,7 +83,7 @@ Firstly making sure your quadcopter is sitting on a flat surface and is level (a
 It will now count down 5 seconds before calibrating. Once done you should see the all OK on the X,Y, and Z sensors:
 
 ![Preparing the quadcopter - Sensor test](https://i.imgur.com/9XOc0v0.png)
-Preparing the quadcopter – Sensor test
+
 
 **ESC Calibration**
 
@@ -114,7 +116,6 @@ Once the props are balanced it’s time to attach them. Now you need to be caref
 
 
 ![Preparing the quadcopter - Attached Props](https://i.imgur.com/xnYIfAH.png)
-Preparing the quadcopter – Attached Props
 
 **Test Flight**
 

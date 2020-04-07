@@ -1,7 +1,7 @@
 ---
 title: Building a Quadcopter - Part 2 (The build)
 layout: post
-date: '2013-08-07 10:00:00 +1300'
+date: '2013-08-10 10:00:00 +1300'
 categories: hobbies electronics
 
 ---
