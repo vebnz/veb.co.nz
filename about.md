@@ -4,7 +4,9 @@ layout: page
 permalink: "/about/"
 ---
 
-I'm Mike Mackenzie, a principal developer for Diastorm Technology working on a very top secret platform that's due for release very soon.
+I'm Mike Mackenzie, I was the principal developer for Diastorm Technology working on a very top secret platform.
+
+I am now doing contract and cosulting, in NZ and abroad.
 
 I live and work in Dunedin, New Zealand.
 
