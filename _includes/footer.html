@@ -50,6 +50,7 @@
     }
 
     function modeSwitcher() {
+      console.log('modeswitch')
       let currentMode = document.documentElement.getAttribute('data-theme');
       if (currentMode === "dark") {
         document.documentElement.setAttribute('data-theme', 'light');

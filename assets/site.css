@@ -1,5 +1,5 @@
 html {
-  --text-color-normal: #0a244d;
+  --text-color-normal: pink;
   --text-color-light: #8cabd9;
 }
 
@@ -9,7 +9,8 @@ html[data-theme='dark'] {
   --text-color-richer: hsl(210, 50%, 72%);
   --text-color-highlight: hsl(25, 70%, 45%);
 }
-  @media (prefers-color-scheme: dark) {
+
+@media (prefers-color-scheme: dark) {
     html {
       content: "dark";
     }
