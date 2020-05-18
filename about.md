@@ -12,7 +12,7 @@ I live and work in Dunedin, New Zealand.
 
 This is my blog. Please don't be mean. 😇
 
-[Github](https://veb.co.nz/code/2019/07/25/react-native-phone-input.html)
+[Github](https://github.com/veb)
 
 [Twitter](https://twitter.com/vebbed)
 
