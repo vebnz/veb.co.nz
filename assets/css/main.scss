@@ -4,6 +4,19 @@
 @import "minima";
 @import "vars";
 
-.home {
-  background-color: $bg-color;
+:root {
+  --page-bg-color: #fdfdfd;
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg-color: #333333;
+  }
+}
+
+.home {
+  background-color: var(--page-bg-color);
+}
+body {
+  background-color: var(--page-bg-color);
+}
+
