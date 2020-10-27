@@ -1,0 +1,65 @@
+---
+---
+
+@import "minima";
+@import "vars";
+
+:root {
+  --page-bg-color: #fdfdfd;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg-color: #36393f;
+  }
+}
+
+.home {
+  // padding: $home-padding;
+  background-color: var(--page-bg-color);
+  color: var(--page-font-color);
+}
+
+body {
+  background-color: var(--page-bg-color);
+  color: var(--page-font-color);
+}
+
+p { 
+  color: var(--page-paragraph-color);
+}
+
+.p-name {
+  color: var(--page-text-color);
+}
+
+span.username {
+  color: var(--page-text-color);
+}
+
+.site-nav .page-link {
+  color: var(--page-text-color);
+}
+
+a {
+ color: var(--page-link-color) 
+}
+
+a:link {
+  color: var(--page-link-color) 
+}
+
+a:visited {
+  color: var(--page-link-visited-color);
+}
+
+a:hover {
+  color: var(--page-link-color) 
+}
+
+a:active {
+  color: var(--page-link-color) 
+}
+
+.site-title:any-link {
+  color: var(--page-link-color) 
+}
