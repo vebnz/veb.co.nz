@@ -35,14 +35,4 @@
     {%- endif -%}
   </div>
 </header>
-<script>
-    const darkmode = new darken({
-        variables: {
-            "--page-bg-color" : ["#fdfdfd", "#222222"],
-        },
-        toggle: "#theme-toggle",
-        remember: null,
-    }, function(active) {
-        document.querySelector('#theme-toggle').innerHTML = active?'Dark':'Light'
-    });
-</script> 
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
