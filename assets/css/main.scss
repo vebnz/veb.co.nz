@@ -32,6 +32,11 @@ p {
   color: var(--page-paragraph-color);
 }
 
+code {
+  background-color: var(--page-code-color);
+  color: #FFF;
+}
+
 .post-meta {
   color: var(--page-post-meta);
 }
