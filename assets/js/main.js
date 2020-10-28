@@ -6,7 +6,8 @@ const darkmode = new darken({
       "--page-link-visited-color" : ["#1B55A1", "#747a86"],
       "--page-paragraph-color" : ["#000", "#bec6d6"],
       "--page-text-color" : ["#000", "#ffdc00"],
-      "--page-post-meta": ["#545454", "#ffdc00"]
+      "--page-post-meta": ["#545454", "#ffdc00"],
+      "--page-code-color": ["#94004A", "#94004A"]
 
   },
   toggle: "#theme-toggle",
