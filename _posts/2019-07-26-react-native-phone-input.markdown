@@ -25,30 +25,17 @@ Here's a small gif of it working:
 
 If you put the above in your *components* directory, you can include it:
 
-```react
-import PhoneInput from 'app/components/PhoneInput';
-```
+{% gist 82ed7ffda46055e9c0d58eaeb1dd4f81 %}
 
 
 Then within the screen that you want to display your phone input:
 
-```react
-<PhoneInput
-  placeholder='Mobile Number'
-  onChange={this.onChangePhoneInput} />
-```
+{% gist d01127077c79f76c6152907d44f369cc %}
 
 
 My `onChangePgoneInput` is as simple as you thought:
 
-```react
-onChangePhoneInput = (value) => {
-  this.setState({
-    phoneInput: value,
-  })
-}
-```
-
+{% gist bd6541d8f3b4ae2131d80e80e5d05fd7 %}
 
 
 Of course, to do what I've done (for confirming your mobile number), you just add another `PhoneInput` component, but with a different `onChange`.
