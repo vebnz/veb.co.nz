@@ -13,6 +13,10 @@
   }
 }
 
+.site-nav {
+  margin-top: 4px;
+}
+
 .home {
   // padding: $home-padding;
   background-color: var(--page-bg-color);
@@ -26,6 +30,10 @@ body {
 
 p { 
   color: var(--page-paragraph-color);
+}
+
+.post-meta {
+  color: var(--page-post-meta);
 }
 
 .p-name {
