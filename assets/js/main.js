@@ -11,8 +11,6 @@ const darkmode = new darken({
       "--nav-icon-color": ["#94004A", "#94004A"]
 
   },
-  toggle: "#theme-toggle",
+  // toggle: "#theme-toggle",
   remember: true,
-}, function(active) {
-  document.querySelector('#theme-toggle').innerHTML = active ? 'Light' : 'Dark'
 });
