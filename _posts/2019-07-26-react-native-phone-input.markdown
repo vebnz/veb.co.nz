@@ -61,7 +61,7 @@ I am also using `formatNumber` from `libphonenumber-js` library ([Github link](h
 
 Here's a small gif of it working:
 
-![A gif showing a user entering a phone number and showing it format after they leave the textfield](https://i.imgur.com/zWXDjyu.gif "A gif showing a user entering a phone number and showing it format after they leave the textfield")
+![A gif showing a user entering a phone number and showing it format after they leave the textfield](https://i.imgur.com/zWXDjyu.gif)
 
 
 If you put the above in your *components* directory, you can include it:
