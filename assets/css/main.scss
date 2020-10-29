@@ -49,8 +49,16 @@ span.username {
   color: var(--page-text-color);
 }
 
+.site-nav {
+  background-color: var(--page-bg-color);
+}
+
 .site-nav .page-link {
   color: var(--page-text-color);
+}
+
+.site-nav .menu-icon #icon {
+  fill: var(--nav-icon-color);
 }
 
 a {
