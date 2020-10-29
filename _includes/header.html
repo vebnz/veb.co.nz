@@ -1,5 +1,20 @@
 <header class="site-header" role="banner">
-
+  <script>
+    const darkmode = new darken({
+      variables: {
+        "--page-bg-color" : ["#fdfdfd", "#36393f"],
+        "--page-font-color" : ["#000", "#FFF"],
+        "--page-link-color" : ["#1B55A1 ", "#FFF"],
+        "--page-link-visited-color" : ["#1B55A1", "#747a86"],
+        "--page-paragraph-color" : ["#000", "#bec6d6"],
+        "--page-text-color" : ["#000", "#ffdc00"],
+        "--page-post-meta": ["#545454", "#ffdc00"],
+        "--page-code-color": ["#94004A", "#94004A"],
+        "--nav-icon-color": ["#94004A", "#94004A"]
+  },
+  remember: true
+  });
+  </script>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -27,10 +42,20 @@
         <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         {%- endif -%}
         {%- endfor -%}
-        <a class="page-link" href="#" id="theme-toggle">loft</a>
+        <script>
+          function darkModeToggle() {
+            darkmode.toggle();
+            darken(function(active) {
+            if (active) console.log("Dark mode is active");
+            else console.log("Dark mode is inactive");
+          });
+          }
+        </script>
+        <a class="page-link" href="javascript:darkModeToggle();">loft</a>
+        
       </div>
     </nav>
     {%- endif -%}
   </div>
 </header>
-<script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+<!-- <script src="{{ "/assets/js/main.js" | relative_url }}"></script> -->
