@@ -3,6 +3,7 @@ title: React Native Phone Input with formatting and Hooks!
 layout: post
 date: '2019-07-26 09:12:23 +1300'
 categories: code react
+author: "Mike Mackenzie"
 ---
 
 I recently  decided to move away from `react-native-phone-input` ([Github link](https://github.com/thegamenicorus/react-native-phone-input "react-native-phone-input link to GitHub for looking at the library")) because I just found it too annoying and it seemed like such an easy thing to remake with some Hooks. It was!  :sweat_smile:

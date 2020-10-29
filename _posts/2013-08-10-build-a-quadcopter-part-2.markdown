@@ -3,8 +3,10 @@ title: Building a Quadcopter - Part 2 (The build)
 layout: post
 date: '2013-08-10 10:00:00 +1300'
 categories: hobbies electronics
-
+author: 'Jamie Gracie'
 ---
+
+**This post (and the squels) were at our old blog. So some links may not work, but the general gist is still there.**
 
 So if you managed to order all the correct parts (as noted in [build a quadcopter part 1](https://veb.co.nz/hobbies/electronics/2013/08/06/build-a-quadcopter-part-1.html)) and also managed to sit around waiting for them to arrive, we can now move on and build a quadcopter.
 

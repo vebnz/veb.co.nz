@@ -3,8 +3,10 @@ title: Building a Quadcopter - Part 3 (Preparing the Quadcopter)
 layout: post
 date: '2013-08-13 10:00:00 +1300'
 categories: hobbies electronics
-
+author: 'Jamie Gracie'
 ---
+
+**This post (and the squels) were at our old blog. So some links may not work, but the general gist is still there.**
 
 Welcome back to this third installment on how to build a quadcopter. If you haven’t already check out [part 1 (the parts)](http://veb.co.nz/hobbies/electronics/2013/08/06/build-a-quadcopter-part-1.html) and [part 2 (the build)](http://veb.co.nz/hobbies/electronics/2013/08/06/build-a-quadcopter-part-2.html) to get up to speed and then read on to start preparing the quadcopter for it’s first flight.
 

@@ -3,7 +3,10 @@ title: Building a Quadcopter - Part 1 (The parts)
 layout: post
 date: '2013-08-07 10:00:00 +1300'
 categories: hobbies electronics
+author: 'Jamie Gracie'
 ---
+
+**This post (and the squels) were at our old blog. So some links may not work, but the general gist is still there.**
 
 It has been a while since my last post and I’m going to step away from Web development for this next series and teach you all how to build a quadcopter.
 

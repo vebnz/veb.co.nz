@@ -3,9 +3,10 @@ layout: post
 title:  "How I made money with Teespring"
 date:   2012-12-03 09:12:23 +1300
 categories: marketing
+author: "Mike Mackenzie"
 ---
 
-> **This is a very old article I wrote for my last blog** from Spottedsun.com
+> **This is a very old article I wrote for my last blog**
 > 
 **Disclaimer**: I’m not paid by TeeSpring, I’m just a huge fan.
 
@@ -23,19 +24,19 @@ After a few days, someone from IRC linked me to a sort of crowd-source community
 
 I did that a few times (amassing an armada of Sherlock-related tees), and it worked pretty well unfortunately, something was still missing. It still felt pretty baseless, but I was on the right track — people were happy with it.
 
-Eventually, after countless hours of whinging in #startups on Freenode someone linked me to a young startup called [Teespring](https://web.archive.org/web/20150320045049/http://www.teespring.com/), which turned out to be the exact service I’ve been looking for all this time.
+Eventually, after countless hours of whinging in #startups on Freenode someone linked me to a young startup called [Teespring](https://web.archive.org/web/20150320045049/http://www.teespring.com/, "Web Archive of when I first saw Teespring"), which turned out to be the exact service I’ve been looking for all this time.
 
 Teespring allows you to make a t-shirt (and hoodies as of late) and price it at whatever you want, but there’s a twist: it’s like Kickstarter.
 
 If enough people buy the t-shirt then they are charged, and the tees are promptly shipped. It’s all limited-time, which is excellent for me, and the audience of my Facebook page. Each shirt would cost something like $9 USD and it was up to me to provide the markup, which I happily did.
 
-My first TeeSpring campaign got me $462.12 USD. You can have a look at the shirt here: [http://teespring.com/SherlockBored](https://web.archive.org/web/20150320045049/http://teespring.com/SherlockBored)
+My first TeeSpring campaign got me $462.12 USD. You can have a look at the shirt here: [http://teespring.com/SherlockBored](https://web.archive.org/web/20150320045049/http://teespring.com/SherlockBored "Links to a web archive of my first campagin")
 
 Since then I’ve done another four campaigns, and they’ve all paid out more than that first one. By a lot.
 
 According to the fellas at TeesSpring, my first campaign had the worst conversion rate that they had seen thus far, and from there each campaign progressively got way better. I put that down to the fact that with each new campaign, I knew what the audience wanted, and that TeeSpring was no longer something “new” in which they should “be cautious”, as previous purchases had gone off without a hitch.
 
-You can view my most successful campaign so far here [http://teespring.com/IAmSherlocked3](https://web.archive.org/web/20150320045049/http://teespring.com/IAmSherlocked3)
+You can view my most successful campaign so far here [http://teespring.com/IAmSherlocked3](https://web.archive.org/web/20150320045049/http://teespring.com/IAmSherlocked3 "Links to a web archive of my old campagin")
 
 To top off this whole experience with TeeSpring, the icing was definitely after I started off my first campaign, and somehow the co-founder got in touch with me and subsequently provided the most awesome service I’ve head in a while. Not only would he personally go around ringing up DHL (a courier company) to find out where peoples t-shirts were and why they were late – he’d go above and beyond to make sure that I was happy and that people on my Facebook page were too – even going as far as to provide some support on **my** page. That’s incredible!
 
@@ -43,6 +44,6 @@ The coolest thing about it all is the absolute lack of service that I need to pr
 
 No, that’s not the coolest thing. I lied. The coolest thing was all that extra money I got for little to no work at all. Anyone with a popular Facebook page, Twitter account or forum can do exactly this, providing you know what your target audience wants. If you do it right, you get money and happy people which is probably the best thing ever.
 
-It might even work on your [subreddit](http://www.reddit.com/reddits/), but lets not get ahead of ourselves here. #
+It might even work on your [subreddit](http://www.reddit.com/reddits/ "Just shows a list of subreddits"), but lets not get ahead of ourselves here. #
 
 ****
