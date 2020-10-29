@@ -3,6 +3,7 @@ layout: post
 title:  "Pod install not working on macOS Catalina?"
 date:   2019-10-20 19:17:23 +1300
 categories: iphone error react-native ruby Xcode catalina macOS code
+author: "Mike Mackenzie"
 ---
 
 ## Pod problems… again.
@@ -13,20 +14,24 @@ categories: iphone error react-native ruby Xcode catalina macOS code
 
 If you run into this error: 
 
-```
+{% highlight terminal %}
 Error:  System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby:
 
   bad interpreter: No such file or directory
 
-```
+{% endhighlight %}
 
 All you need to do is run:
-`sudo gem install -n /usr/local/bin cocoapods `
+{% highlight shell %}
+sudo gem install -n /usr/local/bin cocoapods
+{% endhighlight %}
 
 If that doesn't help then continue reading...
 
 The issue that arose as I was having to build from Xcode to my iPhone was:
-`Library not found for -lBase64`
+{% highlight terminal %}
+Library not found for -lBase64
+{% endhighlight %}
 
 Okay. Maybe it's got something to do with my Xcode not being the latest version… perhaps I need `Xcode 11.1`
 
@@ -53,9 +58,9 @@ Go back to your project, and run again (I'm trying to get the React-Native app o
 
 Guess what? That didn't work either. Keeps crying about:
 
-```
+{% highlight terminal %}
 Directory not found for option '-L/Users/mike/Library/Developer/Xcode/DerivedData/blah-dhvqffposgnfddauwtuhbxzbhlpr/Build/Products/Debug-iphonesimulator/Base64'
-```
+{% endhighlight %}
 
 
 

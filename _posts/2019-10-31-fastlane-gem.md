@@ -3,6 +3,7 @@ layout: post
 title:  "Fastlane not working on macOS Catalina?"
 date:   2019-10-31 20:49:34 +1300
 categories: fastlane react-native code production
+author: "Mike Mackenzie"
 ---
 
 ## Easy fix.

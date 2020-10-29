@@ -3,6 +3,7 @@ layout: post
 title:  "React Native iPhone X error"
 date:   2019-10-12 18:12:23 +1300
 categories: iphonex error react-native simulator code
+author: "Mike Mackenzie"
 ---
 
 ## Oh, macOS Catalina… 
