@@ -11,7 +11,7 @@ const darkmode = new darken({
 
   },
   toggle: "#theme-toggle",
-  remember: null,
+  remember: true,
 }, function(active) {
   document.querySelector('#theme-toggle').innerHTML = active?'Light':'Dark'
 });
