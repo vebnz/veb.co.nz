@@ -7,11 +7,12 @@ const darkmode = new darken({
       "--page-paragraph-color" : ["#000", "#bec6d6"],
       "--page-text-color" : ["#000", "#ffdc00"],
       "--page-post-meta": ["#545454", "#ffdc00"],
-      "--page-code-color": ["#94004A", "#94004A"]
+      "--page-code-color": ["#94004A", "#94004A"],
+      "--nav-icon-color": ["#94004A", "#94004A"]
 
   },
   toggle: "#theme-toggle",
   remember: true,
 }, function(active) {
-  document.querySelector('#theme-toggle').innerHTML = active?'Light':'Dark'
+  document.querySelector('#theme-toggle').innerHTML = active ? 'Light' : 'Dark'
 });
