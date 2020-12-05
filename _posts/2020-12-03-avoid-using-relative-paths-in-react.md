@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "How to avoid using relative path imports (/../../../public/assets/SVG/bob.svg) in create-react-app"
+title:  "How to avoid using relative path imports in create-react-app"
 date:   2020-12-05 18:10:34 +1300
 categories: react create-react-app code tip vscode
 author: "Mike Mackenzie"
 ---
 
-### How to avoid using relative path imports
+# How to avoid using relative path imports
+
+### Like (/../../../public/assets/SVG/bob.svg)
 
 This project I'm doing at the moment was created with `create-react-app` and uses `nextjs` and I use Visual Studio Code (vscode).
 
@@ -81,4 +83,4 @@ import { Layout } from "src/components/layout";
 
 
 
-There's so many options and tricks to use out there for this sort of thing, but for the last half of this small post, you can read more about what you can do with `jsconfig.js` at https://code.visualstudio.com/docs/languages/jsconfig
+There's so many options and tricks to use out there for this sort of thing, but for the last half of this small post, you can read more about what you can do with `jsconfig.js` at [https://code.visualstudio.com/docs/languages/jsconfig](https://code.visualstudio.com/docs/languages/jsconfig)
