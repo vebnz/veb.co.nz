@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "CodeCraft Dunedin"
-date:   2021-02-17 21:10:34 +1300
+title: "CodeCraft Dunedin"
+date: 2021-02-17 18:10:34 +1300
 categories: programming development software talks tutorials
 author: "Mike Mackenzie"
 ---
@@ -16,7 +16,7 @@ Anyone is allowed to come along to the talks, no matter who you are or what you 
 
 We want to create a place where anyone in the world can see these talks and tutorials because they are full of amazing information and it should be documented and that's exactly what the CodeCraft website is for.
 
-It's still under construction and so on, but check it out: [https://codecraft.org.nz/]( https://codecraft.org.nz/)
+It's still under construction and so on, but check it out: [https://codecraft.org.nz/](https://codecraft.org.nz/)
 
 Ian Rees managed to create a really awesome article on **Modern Embedded Debugging "Show-and-tell"**
 
