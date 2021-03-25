@@ -41,7 +41,7 @@ Makes it much easier to read and to code.
 
 The other option, and the option that may have superseded in the above (**but make sure you have vscode**) by making sure you have a:
 
-`jsconfig.js` file and making sure it has:
+`jsconfig.json` file and making sure it has:
 
 ```react
 {
@@ -83,4 +83,4 @@ import { Layout } from "src/components/layout";
 
 
 
-There's so many options and tricks to use out there for this sort of thing, but for the last half of this small post, you can read more about what you can do with `jsconfig.js` at [https://code.visualstudio.com/docs/languages/jsconfig](https://code.visualstudio.com/docs/languages/jsconfig)
+There's so many options and tricks to use out there for this sort of thing, but for the last half of this small post, you can read more about what you can do with `jsconfig.json` at [https://code.visualstudio.com/docs/languages/jsconfig](https://code.visualstudio.com/docs/languages/jsconfig)
