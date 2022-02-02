@@ -16,4 +16,4 @@ This is my blog. Please don't be mean. 😇
 
 [LinkedIn](https://www.linkedin.com/in/vebbed/)
 
-You can also find me on the [DevelopNZ Slack](https://dev.elop.nz/).
+You can also find me on the [DevelopNZ Slack](https://dev.elop.nz/) which a server aimed at New Zealand software engineers and IT in general. 👀
