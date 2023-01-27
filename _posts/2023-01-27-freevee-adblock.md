@@ -1,25 +1,33 @@
 ---
 layout: post
-title: "CodeCraft Dunedin"
-date: 2021-02-17 18:10:34 +1300
-categories: programming development software talks tutorials
+title: "How to block ads on Freevee"
+date: 2023-01-27 15:40:12 +1300
+categories: talks tutorials freevee television amazon primevideo bookmarklet extension
 author: "Mike Mackenzie"
 ---
 
-# CodeCraft Dunedin
+# Blocking advertisements on Freevee
+### Using Javascript inside a bookmarklet to skip ads
 
-Hi all,
+If you have watched things on Freevee before, you would've noticed it has quite a few long ads throughout.
 
-I know I haven't been particularly active in blogging however I must tell you about CodeCraft Dunedin.
+Thankfully it's easy enough to skip over them in any Chromium browser (I use Brave). Probably the same for Firefox.
 
-Anyone is allowed to come along to the talks, no matter who you are or what you are (I mean, puppies are pretty awesome). Senior developers, junior developers or even people who are studying for their compsci degree or similar.
+Simply add a new bookmark, and put whatever as the title like `Skip Freevee Ads` 
 
-We want to create a place where anyone in the world can see these talks and tutorials because they are full of amazing information and it should be documented and that's exactly what the CodeCraft website is for.
+<img width="554" alt="image" src="https://user-images.githubusercontent.com/376245/214998698-54b94f0c-ae47-43ee-8f3f-2ee30d231259.png">
 
-It's still under construction and so on, but check it out: [https://codecraft.org.nz/](https://codecraft.org.nz/)
+For the URL enter the following:
 
-Ian Rees managed to create a really awesome article on **Modern Embedded Debugging "Show-and-tell"**
+<sup>note this code is not wrapped, so click the copy icon for this code block - or select ALL to copy</sup>
 
-Check it out here: [https://codecraft.org.nz/talks/2020-11-03-rust-embedded-debugging.html](https://codecraft.org.nz/talks/2020-11-03-rust-embedded-debugging.html)
+``` js
+javascript:(function(){ setInterval(() => { var videos = document.querySelectorAll('div[class*="atvwebplayersdk-adtimeindicator-text"]'); if(videos[0])if(videos[0].innerText.length > 2){ var vidtext = videos[0].innerText; vidtext = vidtext.match(/\d* sec/g)[0].replace("sec","").trim(); document.getElementsByTagName('video')[1].currentTime=document.getElementsByTagName('video')[1].currentTime+parseInt(vidtext)+1; }},2000)})();
+```
 
-I hope to continue helping CodeCraft and I really do want to expand the audience and if we can reach the far corners of the world, then you'll know that Dunedin really is the best city in the entire world. 😇
+When you have whatever you're watching open simply click the bookmarklet button and it'll skip every ad break, and the bookmarklet only needs to be clicked once. 🙈 
+
+<img width="496" alt="image" src="https://user-images.githubusercontent.com/376245/215000387-dcd93a33-1113-432e-b6d0-042ad35520c5.png">
+
+
+Enjoy!
