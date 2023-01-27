@@ -222,3 +222,7 @@ pre.highlight > button:active,
 pre.highlight > button:focus {
   opacity: 1;
 }
+
+pre {
+    white-space: pre-wrap;
+}
