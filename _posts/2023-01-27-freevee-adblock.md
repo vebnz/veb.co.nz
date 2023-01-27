@@ -2,7 +2,8 @@
 layout: post
 title: "How to block ads on Freevee"
 date: 2023-01-27 15:40:12 +1300
-categories: talks tutorials freevee television amazon primevideo bookmarklet extension
+categories: tutorials
+tags: talks tutorials freevee television amazon primevideo bookmarklet extension
 author: "Mike Mackenzie"
 ---
 
