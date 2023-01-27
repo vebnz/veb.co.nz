@@ -22,7 +22,7 @@ For the URL enter the following:
 <sup>note this code is long (not wrapped), so make sure you select all then copy</sup>
 
 ```js
-javascript:(function(){ setInterval(() => { var videos = document.querySelectorAll('div[class*="atvwebplayersdk-adtimeindicator-text"]'); if(videos[0])if(videos[0].innerText.length > 2){ var vidtext = videos[0].innerText; vidtext = vidtext.match(/\d* sec/g)[0].replace("sec","").trim(); document.getElementsByTagName('video')[1].currentTime=document.getElementsByTagName('video')[1].currentTime+parseInt(vidtext)+1; }},2000)})();
+javascript:setInterval((()=>{var e=document.querySelectorAll('div[class*=%22atvwebplayersdk-adtimeindicator-text%22]');if(e[0]&&e[0].innerText.length>2){var t=e[0].innerText;t=t.match(/\d* sec/g)[0].replace(%22sec%22,%22%22).trim(),document.getElementsByTagName(%22video%22)[1].currentTime=document.getElementsByTagName(%22video%22)[1].currentTime+parseInt(t)+1}}),2e3);
 ```
 
 When you have whatever you're watching open simply click the bookmarklet button and it'll skip every ad break, and the bookmarklet only needs to be clicked once. 🙈 
