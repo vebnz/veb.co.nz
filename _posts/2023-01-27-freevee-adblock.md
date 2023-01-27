@@ -21,9 +21,9 @@ For the URL enter the following:
 
 <sup>note this code is not wrapped, so click the copy icon for this code block - or select ALL to copy</sup>
 
-``` js
+{% highlight js %}
 javascript:(function(){ setInterval(() => { var videos = document.querySelectorAll('div[class*="atvwebplayersdk-adtimeindicator-text"]'); if(videos[0])if(videos[0].innerText.length > 2){ var vidtext = videos[0].innerText; vidtext = vidtext.match(/\d* sec/g)[0].replace("sec","").trim(); document.getElementsByTagName('video')[1].currentTime=document.getElementsByTagName('video')[1].currentTime+parseInt(vidtext)+1; }},2000)})();
-```
+{% endhighlight %}
 
 When you have whatever you're watching open simply click the bookmarklet button and it'll skip every ad break, and the bookmarklet only needs to be clicked once. 🙈 
 
