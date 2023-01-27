@@ -7,12 +7,12 @@ tags: talks tutorials freevee television amazon primevideo bookmarklet extension
 author: "Mike Mackenzie"
 ---
 
-# Blocking advertisements on Freevee
-## Using Javascript inside a bookmarklet to skip ads
+## Blocking advertisements on Freevee
+<strong>Using Javascript inside a bookmarklet to skip ads</strong>
 
 If you have watched things on Freevee before, you would've noticed it has quite a few long ads throughout.
 
-Thankfully it's easy enough to skip over them in any Chromium browser (I use Brave). Probably the same for Firefox.
+Thankfully it's easy enough to skip over them in any Chromium browser (I use Brave). Probably the same for Firefox. 
 
 Simply add a new bookmark, and put whatever as the title like `Skip Freevee Ads` 
 
@@ -31,4 +31,4 @@ When you have whatever you're watching open simply click the bookmarklet button 
 <img width="496" alt="image" src="https://user-images.githubusercontent.com/376245/215000387-dcd93a33-1113-432e-b6d0-042ad35520c5.png">
 
 
-Enjoy!
+Enjoy! 🎉
