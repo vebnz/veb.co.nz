@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "How to block ads on Freevee"
+title: "How to watch Freevee without ads"
 date: 2023-01-27 15:40:12 +1300
 categories: tutorials
 tags: talks tutorials freevee television amazon primevideo bookmarklet extension
 author: "Mike Mackenzie"
 ---
 
-## Using Javascript inside a bookmarklet to skip ads
+### Using Javascript inside a bookmarklet to skip ads on Freevee
+
+# ... how to block ads on Freevee
 
 If you have watched things on Freevee before, you would've noticed it has quite a few long ads throughout.
 
