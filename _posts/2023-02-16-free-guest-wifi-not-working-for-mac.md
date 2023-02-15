@@ -11,7 +11,7 @@ author: "Mike Mackenzie"
 
 If you need to join the Dunedin Hospital free WiFi (Southern DHB) you may get a bit annoyed when trying with a Mac because the "acceptance screen" doesn't show up.
 
-There's a wee trick to this however. Once you've selected the WiFi network, wait a couple of minutes then direct your browser to: http://captive.apple.com/
+There's a wee trick to this however. Once you've selected the WiFi network, wait a couple of minutes then direct your browser to: [http://captive.apple.com/](http://captive.apple.com)
 
 If this does not bring up the "Yes pls I accept your terms" screen (aka "acceptance screen"), go to System Preferences, Network, find your wireless connection.
 
