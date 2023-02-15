@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to join a guest/free wifi on Mac"
-date: 2023-01-27 15:40:12 +1300
+date: 2023-02-16 9:40:12 +1300
 categories: tutorials
 tags: talks tutorials
 author: "Mike Mackenzie"
