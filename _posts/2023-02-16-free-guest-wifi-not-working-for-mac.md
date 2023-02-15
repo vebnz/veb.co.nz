@@ -22,6 +22,7 @@ Choose the DNS tab.
 <img width="780" alt="image" src="https://user-images.githubusercontent.com/376245/219148335-34921082-b167-4e25-b915-1c52092d889d.png">
 
 You want to remove it:
+
 <img width="323" alt="image" src="https://user-images.githubusercontent.com/376245/219148397-63a077c7-89ba-4bc4-8388-7bb5db2f688f.png">
 
 Click OK. Go back to the captive.apple.com page and refresh. Voilà!
