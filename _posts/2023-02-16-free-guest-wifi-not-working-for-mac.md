@@ -9,7 +9,7 @@ author: "Mike Mackenzie"
 
 ### How to join a guest/free wifi on Mac
 
-If you need to join the Dunedin Hospital free WiFi (Southern DHB) you may get a bit annoyed when trying with a Mac because the "acceptance screen" doesn't show up.
+If you need to join a free WiFi (like the Dunedin Hospital - Southern DHB) you may get a bit annoyed when trying with a Mac because the "acceptance screen" doesn't show up.
 
 There's a wee trick to this however. Once you've selected the WiFi network, wait a couple of minutes then direct your browser to: [http://captive.apple.com/](http://captive.apple.com)
 
