@@ -7,7 +7,7 @@ tags: talks tutorials
 author: "Mike Mackenzie"
 ---
 
-### How to join a guest/free wifi on Ma
+### How to join a guest/free wifi on Mac
 
 If you need to join the Dunedin Hospital free WiFi (Southern DHB) you may get a bit annoyed when trying with a Mac because the "acceptance screen" doesn't show up.
 
