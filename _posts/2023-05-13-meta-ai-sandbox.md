@@ -23,7 +23,7 @@ Moreover, the AI tool includes an image cropping feature to aid advertisers in o
 
 Presently, these tools are exclusively available to a select group of advertisers, but Meta plans to broaden access to a larger group of advertisers from July onwards.
 
-###### Meta's AI Sandbox offers three key features:
+#### Meta's AI Sandbox offers three key features:
 
 1. Produces multiple ad copy variations.
 2. Generates diverse campaign assets.
