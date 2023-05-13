@@ -2,7 +2,7 @@
 
 layout: post
 title: "Meta's AI Sandbox: A Revolution in Advertising"
-date: 2023-02-16 9:40:12 +1300
+date: 2023-05-13 15:35:12 +1300
 categories: articles
 tags: articles
 author: "Mike Mackenzie"
