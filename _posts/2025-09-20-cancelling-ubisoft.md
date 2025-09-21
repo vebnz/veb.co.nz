@@ -10,9 +10,16 @@ description: "Ubisoft makes it nearly impossible to cancel subscriptions by hidi
 
 ### Ubisoft's dodgy cancellation tricks (and how to beat them)
 
-I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages, and of course they've made it as painful as possible.
+I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages, and of course they've made it as painful as possible. This is what we call a dark pattern:
 
-The cancellation form exists - I can see it right there in the HTML:
+Common subscription dark patterns include:
+- Making it easy to sign up but nearly impossible to cancel
+- Hiding cancel buttons or making them hard to find  
+- Requiring you to call during "business hours" to cancel
+- Forcing you to "fix" payment issues before allowing cancellation
+- Making you jump through multiple confirmation screens
+
+The cancellation form exists, it's right there in the HTML:
 ```html
 <form action="https://store.ubisoft.com/anz/subscription-cancellation?lang=en_NZ" method="post">
 ```
