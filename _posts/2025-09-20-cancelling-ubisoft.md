@@ -19,7 +19,7 @@ I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages
 - Forcing you to "fix" payment issues before allowing cancellation
 - Making you jump through multiple confirmation screens
 
-## The Problem
+### The Problem
 
 The cancellation form exists - it's right there in the HTML:
 
@@ -36,7 +36,7 @@ But instead of a "Cancel" button, they only show "Manage my payment method". Abs
 
 <img width="800" height="332" alt="Ubisoft subscription page showing only payment management option" src="https://github.com/user-attachments/assets/b8bed0f8-d374-4b98-898d-77b15eb007aa" style="max-width: 100%; height: auto;" />
 
-## The Solution
+### The Solution
 
 There's a wee trick though. Open your browser console (devtools, F12) and chuck this in:
 
@@ -57,7 +57,7 @@ if (form) {
 
 That'll force the form to submit even though they've hidden the cancel button. This should work regardless of what other buttons they show or hide.
 
-## The Legal Side
+### The Legal Side
 
 This kind of crap is probably illegal under the Fair Trading Act in NZ. Under the Act, businesses can't use misleading or deceptive conduct, and subscription services should make cancellation "as easy as signing up."
 
