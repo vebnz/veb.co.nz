@@ -16,7 +16,11 @@ The cancellation form exists - I can see it right there in the HTML:
 ```html
 <form action="https://store.ubisoft.com/anz/subscription-cancellation?lang=en_NZ" method="post">
 ```
-<img width="2344" height="1376" alt="Screenshot 2025-09-22 at 6 21 52 AM" src="https://github.com/user-attachments/assets/0aec3be3-4111-45cf-9d92-06b5d59b402e" />
+
+<img width="1005" height="418" alt="image" src="https://github.com/user-attachments/assets/b8bed0f8-d374-4b98-898d-77b15eb007aa" />
+<img width="1098" height="451" alt="image" src="https://github.com/user-attachments/assets/bc093f42-6683-4aaf-beed-721ef07ea3a5" />
+
+<a href="https://github.com/user-attachments/assets/0aec3be3-4111-45cf-9d92-06b5d59b402e">View full size screenshot</a>
 
 But instead of a "Cancel" button, they only show "Manage my payment method". Absolute cowboys.
 
