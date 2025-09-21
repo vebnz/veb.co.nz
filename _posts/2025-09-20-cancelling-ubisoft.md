@@ -8,9 +8,9 @@ author: "Mike Mackenzie"
 description: "Ubisoft makes it nearly impossible to cancel subscriptions by hiding the cancel button. Here's how to force cancellation using browser dev tools."
 ---
 
-### Ubisoft's dodgy cancellation tricks (and how to beat them)
+### Ubisoft's dodgy cancellation tricks
 
-I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages, and of course they've made it as painful as possible. This is what we call a **dark pattern**.
+I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages, and of course they've made it as painful as possible. This is known as a **dark pattern**.
 
 **Common subscription dark patterns include:**
 - Making it easy to sign up but nearly impossible to cancel
@@ -38,7 +38,7 @@ But instead of a "Cancel" button, they only show "Manage my payment method". Abs
 
 ### The Solution
 
-There's a wee trick though. Open your browser console (devtools, F12) and chuck this in:
+There's a trick though. Open your browser console (devtools, F12) and chuck this in:
 
 ```javascript
 document.querySelector('form[name="dwfrm_subscriptioncancellation"]').submit();
@@ -62,5 +62,3 @@ That'll force the form to submit even though they've hidden the cancel button. T
 This kind of crap is probably illegal under the Fair Trading Act in NZ. Under the Act, businesses can't use misleading or deceptive conduct, and subscription services should make cancellation "as easy as signing up."
 
 You could file a complaint with the [Commerce Commission](https://comcom.govt.nz) if you're feeling motivated.
-
-Pretty ridiculous that we have to resort to browser hacks just to stop paying for something we don't want.
