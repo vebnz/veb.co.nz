@@ -11,6 +11,7 @@
   --base-font-weight: 400;
   --logo-yellow: #fbb03b;
   --logo-bottom: #534741;
+  --page-list-color: #36393f;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,6 +20,7 @@
     --base-font-weight: 500;
     --logo-yellow: #f09b11;
     --logo-bottom: #afafaf;
+    --page-list-color: #e0e0e0;
   }
 }
 
@@ -98,6 +100,10 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
+}
+
+ul, ol, li {
+  color: var(--page-list-color);
 }
 
 .header {
