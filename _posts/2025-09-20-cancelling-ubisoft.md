@@ -10,35 +10,44 @@ description: "Ubisoft makes it nearly impossible to cancel subscriptions by hidi
 
 ### Ubisoft's dodgy cancellation tricks (and how to beat them)
 
-I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages, and of course they've made it as painful as possible. This is what we call a dark pattern:
+I wanted to cancel my Ubisoft+ subscription because I haven't touched it in ages, and of course they've made it as painful as possible. This is what we call a **dark pattern**.
 
-Common subscription dark patterns include:
+**Common subscription dark patterns include:**
 - Making it easy to sign up but nearly impossible to cancel
 - Hiding cancel buttons or making them hard to find  
 - Requiring you to call during "business hours" to cancel
 - Forcing you to "fix" payment issues before allowing cancellation
 - Making you jump through multiple confirmation screens
 
-The cancellation form exists, it's right there in the HTML:
+## The Problem
+
+The cancellation form exists - it's right there in the HTML:
+
 ```html
 <form action="https://store.ubisoft.com/anz/subscription-cancellation?lang=en_NZ" method="post">
+</form>
 ```
+
 <img width="800" height="332" alt="Ubisoft subscription page showing hidden cancel button" src="https://github.com/user-attachments/assets/bc093f42-6683-4aaf-beed-721ef07ea3a5" style="max-width: 100%; height: auto;" />
 
 <a href="https://github.com/user-attachments/assets/0aec3be3-4111-45cf-9d92-06b5d59b402e">View full size screenshot</a>
 
 But instead of a "Cancel" button, they only show "Manage my payment method". Absolute cowboys:
 
-<img width="800" height="332" alt="Ubisoft subscription page showing hidden cancel button" src="https://github.com/user-attachments/assets/b8bed0f8-d374-4b98-898d-77b15eb007aa" style="max-width: 100%; height: auto;" />
+<img width="800" height="332" alt="Ubisoft subscription page showing only payment management option" src="https://github.com/user-attachments/assets/b8bed0f8-d374-4b98-898d-77b15eb007aa" style="max-width: 100%; height: auto;" />
+
+## The Solution
 
 There's a wee trick though. Open your browser console (devtools, F12) and chuck this in:
+
 ```javascript
 document.querySelector('form[name="dwfrm_subscriptioncancellation"]').submit();
 ```
 
-You may have to write `allow pasting` for Chromium browsers (I used Brave).
+**Note:** You may have to type `allow pasting` for Chromium browsers (I used Brave).
 
-I actually did something like:
+The safer version:
+
 ```javascript
 const form = document.querySelector('form[name="dwfrm_subscriptioncancellation"]');
 if (form) {
@@ -46,8 +55,12 @@ if (form) {
 }
 ```
 
-That'll force the form to submit even though they've hidden the cancel button. This will work if you have other buttons, no buttons - whatever they try, this should work.
+That'll force the form to submit even though they've hidden the cancel button. This should work regardless of what other buttons they show or hide.
 
-This kind of crap is probably illegal under the Fair Trading Act in NZ, so you could always file another complaint with the Commerce Commission if you're feeling motivated.
+## The Legal Side
+
+This kind of crap is probably illegal under the Fair Trading Act in NZ. Under the Act, businesses can't use misleading or deceptive conduct, and subscription services should make cancellation "as easy as signing up."
+
+You could file a complaint with the [Commerce Commission](https://comcom.govt.nz) if you're feeling motivated.
 
 Pretty ridiculous that we have to resort to browser hacks just to stop paying for something we don't want.
