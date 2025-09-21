@@ -39,7 +39,7 @@ if (form) {
 }
 ```
 
-That'll force the form to submit even though they've hidden the cancel button.
+That'll force the form to submit even though they've hidden the cancel button. This will work if you have other buttons, no buttons - whatever they try, this should work.
 
 This kind of crap is probably illegal under the Fair Trading Act in NZ, so you could always file another complaint with the Commerce Commission if you're feeling motivated.
 
