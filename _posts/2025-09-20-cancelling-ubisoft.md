@@ -16,12 +16,13 @@ The cancellation form exists - I can see it right there in the HTML:
 ```html
 <form action="https://store.ubisoft.com/anz/subscription-cancellation?lang=en_NZ" method="post">
 ```
-<img width="800" height="332" alt="Ubisoft subscription page showing hidden cancel button" src="https://github.com/user-attachments/assets/b8bed0f8-d374-4b98-898d-77b15eb007aa" style="max-width: 100%; height: auto;" />
 <img width="800" height="332" alt="Ubisoft subscription page showing hidden cancel button" src="https://github.com/user-attachments/assets/bc093f42-6683-4aaf-beed-721ef07ea3a5" style="max-width: 100%; height: auto;" />
 
 <a href="https://github.com/user-attachments/assets/0aec3be3-4111-45cf-9d92-06b5d59b402e">View full size screenshot</a>
 
-But instead of a "Cancel" button, they only show "Manage my payment method". Absolute cowboys.
+But instead of a "Cancel" button, they only show "Manage my payment method". Absolute cowboys:
+
+<img width="800" height="332" alt="Ubisoft subscription page showing hidden cancel button" src="https://github.com/user-attachments/assets/b8bed0f8-d374-4b98-898d-77b15eb007aa" style="max-width: 100%; height: auto;" />
 
 There's a wee trick though. Open your browser console (devtools, F12) and chuck this in:
 ```javascript
