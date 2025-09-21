@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Cancel Ubisoft+ When They Hide the Cancel Button (NZ Guide)"
+title: "How to Cancel Ubisoft+ When They Hide the Cancel Button"
 date: 2025-09-20 14:30:00 +1300
 categories: consumer-rights tutorials
 tags: ubisoft-plus cancel-subscription consumer-rights tutorials new-zealand dark-patterns
