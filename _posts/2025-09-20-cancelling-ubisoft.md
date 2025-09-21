@@ -44,9 +44,9 @@ There's a wee trick though. Open your browser console (devtools, F12) and chuck 
 document.querySelector('form[name="dwfrm_subscriptioncancellation"]').submit();
 ```
 
-**Note:** You may have to type `allow pasting` for Chromium browsers (I used Brave).
+You may have to type `allow pasting` for Chromium browsers (I used Brave).
 
-The safer version:
+This is what I did:
 
 ```javascript
 const form = document.querySelector('form[name="dwfrm_subscriptioncancellation"]');
